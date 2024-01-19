@@ -1,0 +1,17 @@
+{
+  "name": "Template-Monorepo-React-Nest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "turbo dev",
+    "start": "node apps/api/dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.11.3"
+  }
+}
